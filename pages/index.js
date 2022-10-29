@@ -10,11 +10,19 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="#">GoDubai.uz</a>
         </h1>
+   
 
-        {/* <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p> */}
+
+        <p className={styles.description}>
+          Eng yaxshi aviachiptalar Aviasalesda{' '}
+        
+        </p>
+             <a href="https://aviasales.tp.st/WBtNXm1r">
+          <img
+            src="/download.png"
+            alt="Aviasales"
+          />
+        </a>
 
         {/* <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
