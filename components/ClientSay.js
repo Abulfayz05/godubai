@@ -8,7 +8,7 @@ export default function ClientSay() {
         <div className={styles.content}>
           <h1>What customers say</h1>
           <p>
-            "Let’s start your journey with us, your dream will come true. Lorem
+            Let’s start your journey with us, your dream will come true. Lorem
             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.
           </p>

@@ -7,7 +7,7 @@ export default function About() {
     <div className={styles.container}>
       <div className={styles.block}>
         <div>
-          <Image src="/about.png" width={560} height={560}/>
+          <Image src="/about.png" width={560} height={560} alt="about"/>
         </div>
 
         <div className={styles.content}>
