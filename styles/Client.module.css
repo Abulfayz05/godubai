@@ -1,0 +1,62 @@
+.container {
+  width: 100%;
+}
+
+.bg {
+  background-image: url(/say.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.content {
+  padding-top: 139px;
+    padding-bottom: 130px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content h1 {
+  color: #ffffff;
+  line-height: 1.2;
+  font-size: 55px;
+  font-weight: 500;
+  margin-bottom: 1px;
+  line-height: 1.2;
+  margin-top: 0;
+  text-align: center;
+}
+
+.content p {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: normal;
+  line-height: 1.8;
+  padding: 0 50px;
+  
+}
+
+.content a {
+  background: #ffc800;
+  font-family: "Roboto", sans-serif;
+  text-transform: inherit !important;
+  padding: 30px 43px;
+  color: #fff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  border-radius: 5px;
+  line-height: 1;
+  line-height: 0;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+}
