@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import { NextSeo } from "next-seo";
 import Head from "next/head";
 import Layout from "../components/Layout";
+import Gtag from "../components/gtag";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
         />
       </Head>
+      <Gtag />
       <NextSeo
         title="Dubayga sayohat 2022 qulay narxda tur taklif qilamiz "
         description="GoDubai.uz - Dubayga unutulmas sayohatni taklif qilamiz"
