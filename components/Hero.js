@@ -5,8 +5,8 @@ export default function Hero() {
     <div
     className={styles.container}>
     <div className={styles.hero_text}>
-        <h1 className={styles.title}>Lifelong memories just a <br/>
-            few seconds away</h1>
+        <h1 className={styles.title}>Dubayga sayohat qiling <br/>
+            sizni dubay kutmoqda</h1>
         <p>Let’s start your journey with us, your dream will come true</p>
         <a>Explore Destinations</a>
     </div>
