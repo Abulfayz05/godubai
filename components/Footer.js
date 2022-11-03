@@ -63,8 +63,8 @@ export default function Footer() {
             </div>
             <div className={styles.menu_footer}>
               <ul>
-                <p>Bog'lanish</p>
-                <li>Jizzax shahar Navoiy ko'chasi 0-uy</li>
+                <p>Bog’lanish</p>
+                <li>Jizzax shahar Navoiy ko’chasi 0-uy</li>
                 <li>
                   <Link href="https://t.me/godubaiuz">@godubaiuz</Link>
                 </li>
