@@ -14,8 +14,8 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <NextSeo
-        title="GoDubai.uz - Dubayga sayohat agentligi"
-        description="GoDubai.uz - Dubayga unutulmas turni taklif qilamiz"
+        title="Dubayga sayohat 2022 qulay narxda tur taklif qilamiz "
+        description="GoDubai.uz - Dubayga unutulmas sayohatni taklif qilamiz"
       />
       <Component {...pageProps} />
     </Layout>
