@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
       <Gtag />
       <NextSeo
         title="Dubayga sayohat 2022 qulay narxda tur taklif qilamiz "
-        description="GoDubai.uz - Dubayga unutulmas sayohatni taklif qilamiz"
+        description="GoDubai.uz - Dubayga unutilmas sayohatni taklif qilamiz"
       />
       <Component {...pageProps} />
     </Layout>

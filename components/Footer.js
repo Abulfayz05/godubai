@@ -29,35 +29,35 @@ export default function Footer() {
           <div className={styles.footer__menu}>
             <div className={styles.menu_footer}>
               <ul>
-                <p>Navigation</p>
+                <p>Menyu</p>
                 <li>
-                  <Link href="#">Home</Link>
+                  <Link href="#">Asosiy</Link>
                 </li>
                 <li>
-                  <Link href="#">About</Link>
+                  <Link href="#">Tur paketlar</Link>
                 </li>
                 <li>
-                  <Link href="#">Services</Link>
+                  <Link href="#">Biz haqimizda</Link>
                 </li>
                 <li>
-                  <Link href="#">FAQ</Link>
+                  <Link href="#">Aloqa</Link>
                 </li>
               </ul>
             </div>
             <div className={styles.menu_footer}>
               <ul>
-                <p>Services</p>
+                <p>Paketlar</p>
                 <li>
-                  <Link href="#">Dubai</Link>
+                  <Link href="#">Dubay</Link>
                 </li>
                 <li>
-                  <Link href="#">Dubai</Link>
+                  <Link href="#">Dubay</Link>
                 </li>
                 <li>
-                  <Link href="#">Dubai</Link>
+                  <Link href="#">Dubay</Link>
                 </li>
                 <li>
-                  <Link href="#">Dubai</Link>
+                  <Link href="#">Dubay</Link>
                 </li>
               </ul>
             </div>

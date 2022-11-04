@@ -6,11 +6,11 @@ export default function ClientSay() {
     <div className={styles.contaier}>
       <div className={styles.bg}>
         <div className={styles.content}>
-          <h1>What customers say</h1>
+          <h1>Mijozlarimiz fikri</h1>
           <p>
-            Let’s start your journey with us, your dream will come true. Lorem
-            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            GoDubai.uz Dubayda unutilmas sayohatni tuhfa etdi, Godubai.uz barcha
+            xodimlariga o’z minnatdorchiligimini bildirib qolaman kattakon
+            raxmat ishlaringiz rivojini bersin.
           </p>
         </div>
       </div>

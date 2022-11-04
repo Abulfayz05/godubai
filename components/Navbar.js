@@ -51,29 +51,29 @@ export default function Navbar() {
           >
             <li>
               <Link href="/">
-             Home
+          Asosiy
               </Link>
             </li>
 
             <li>
-              <Link href="/guide">
-            Events
+              <Link href="#">
+            Tur paketlar
               </Link>
             </li>
 
             <li>
-              <Link href="/news">
-                About
+              <Link href="#">
+                Biz haqimizda
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="#">
               Blog
               </Link>
             </li>
             <li>
-              <Link href="https://t.me/greenkarta_uz_bot">
-               Contact
+              <Link href="https://t.me/abulfayz05">
+              Aloqa
               </Link>
             </li>
           </ul>

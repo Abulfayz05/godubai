@@ -5,16 +5,22 @@ import Image from "next/image";
 export default function FAQ() {
   return (
     <div className={styles.container}>
-      <h5>FAQ</h5>
-      <h1>Full Range of Travel service</h1>
+      <h5>SAVOLLAR</h5>
+      <h1>Eng ko’p beriladigan savollar</h1>
+
+      {/* ’ */}
 
       <div className={styles.block}>
         <div className={styles.content}>
           <p>
-            Let’s start your journey with us, your dream will come true. Lorem
-            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam quis nostrud exercitation.
+            Tur paketlar narxi ichiga nimalar kiradi. <br />
+            Qanaqa tariflaringiz bor yana <br />
+            Tur paketlar narxi ichiga nimalar kiradi. <br />
+            Qanaqa tariflaringiz bor yana <br />
+            Tur paketlar narxi ichiga nimalar kiradi. <br />
+            Qanaqa tariflaringiz bor yana <br />
+             
+             
           </p>
         </div>
 
@@ -23,7 +29,7 @@ export default function FAQ() {
         </div>
       </div>
       <div className={styles.btn}>
-        <a>Book Your Destination</a>
+        <a>Savol berish</a>
       </div>
 
       <div className={styles.vp}>

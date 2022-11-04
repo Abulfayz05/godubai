@@ -7,8 +7,8 @@ export default function Hero() {
     <div className={styles.hero_text}>
         <h1 className={styles.title}>Dubayga sayohat qiling <br/>
             sizni dubay kutmoqda</h1>
-        <p>Let’s start your journey with us, your dream will come true</p>
-        <a>Explore Destinations</a>
+        <p>Qani ketdik sizni dubayda ajoyib va esda qolarli sayohat kutmoqda</p>
+        <a>Tanishib chiqish</a>
     </div>
 
     <div className={styles.bg}>

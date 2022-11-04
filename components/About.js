@@ -7,20 +7,22 @@ export default function About() {
     <div className={styles.container}>
       <div className={styles.block}>
         <div>
-          <Image src="/about.png" width={560} height={560} alt="about"/>
+          <Image src="/about.png" width={560} height={560} alt="about" />
         </div>
 
         <div className={styles.content}>
-          <h5>About Us</h5>
-          <h1>Get read for real time adventure</h1>
+          <h5>Biz haqimizda</h5>
+          <h1>Sizning ishonchli hamkoringiz</h1>
           <p>
-            Let’s start your journey with us, your dream will come true. Lorem
-            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam quis nostrud exercitation.
+            Mingdan ortiq sayyohlar yilning eng qimmatli vaqti - ta'tilni
+            GoDubai.uz ga ishonib topshirishdi. GoDubai.uz bosh kompaniyasining
+            ko'magi bilan biz nafaqat moliyaviy barqarorlikni saqlab qolamiz,
+            balki xaridorlarga GoDubai.uz-ni raqobatchilardan ajratib
+            turadigan pul uchun eng yaxshi qiymatga ega mahsulotni taqdim
+            etamiz.
           </p>
 
-          <a>Book Your Destination</a>
+          <a>Ko’proq ma’lumot</a>
         </div>
       </div>
     </div>
