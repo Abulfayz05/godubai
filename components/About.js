@@ -14,9 +14,9 @@ export default function About() {
           <h5>Biz haqimizda</h5>
           <h1>Sizning ishonchli hamkoringiz</h1>
           <p>
-            Mingdan ortiq sayyohlar yilning eng qimmatli vaqti - ta'tilni
+            Mingdan ortiq sayyohlar yilning eng qimmatli vaqti - ta’tilni
             GoDubai.uz ga ishonib topshirishdi. GoDubai.uz bosh kompaniyasining
-            ko'magi bilan biz nafaqat moliyaviy barqarorlikni saqlab qolamiz,
+            ko’magi bilan biz nafaqat moliyaviy barqarorlikni saqlab qolamiz,
             balki xaridorlarga GoDubai.uz-ni raqobatchilardan ajratib
             turadigan pul uchun eng yaxshi qiymatga ega mahsulotni taqdim
             etamiz.
