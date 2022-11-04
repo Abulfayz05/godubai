@@ -27,8 +27,6 @@
   text-align: center;
 }
 
-
-
 .block {
   display: flex;
   justify-content: space-between;
@@ -42,8 +40,6 @@
 .title {
   text-align: center;
 }
-
-
 
 .content p {
   font-family: "Roboto", sans-serif;
@@ -74,22 +70,47 @@
   z-index: 1;
   border: 0;
   overflow: hidden;
-
 }
 
-.btn{
+.btn {
   margin-top: 50px;
   text-align: center;
 }
 
-.vp{
+.vp {
   width: 100%;
   margin-top: 100px;
-  
 }
 
-.vp video{
+.vp video {
   border-radius: 12px;
   max-width: 1200px;
   width: 100%;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding-top: 50px;
+    
+  }
+  .block {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .container h1{
+    font-size: 28px;
+  }
+
+  .content{
+    max-width: 100%;
+  }
+  .content p{
+    font-size: 17px;
+  }
+
+  .block img{
+    width: 100%;
+    height: auto;
+  }
 }

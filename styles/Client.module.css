@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  
 }
 
 .content {
@@ -60,4 +61,23 @@
   z-index: 1;
   border: 0;
   overflow: hidden;
+}
+
+
+@media (max-width: 500px) {
+
+
+  .content{
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .content h1{
+    font-size: 28px;
+  }
+  .content p{
+    margin-top: 25px;
+    font-size: 17px;
+    padding: 0 10px;
+  }
+
 }

@@ -68,3 +68,31 @@
   border: 0;
   overflow: hidden;
 }
+
+
+@media (max-width: 500px){
+
+.container{
+  padding-top: 20px;
+}
+.block{
+  flex-direction: column;
+}
+
+.content{
+  max-width: 100%;
+}
+
+.content h1{
+  font-size: 23px;
+}
+.content p{
+  font-size: 17px;
+ 
+}
+
+.block img{
+  width: 100%;
+  height: auto;
+}
+}

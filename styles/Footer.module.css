@@ -191,6 +191,13 @@ gap: 10px;
   .menu_footer {
       flex: none;
       margin-right: 40px;
+     
+      
+  }
+  .footer__main {
+    width: 100%;
+    padding: 15px;
+
   }
 
 

@@ -4,8 +4,7 @@ import styles from "../styles/Navbar.module.css";
 import { useState } from "react";
 import { VscMenu } from "react-icons/vsc";
 import { VscChromeClose } from "react-icons/vsc";
-import {FaTelegram} from 'react-icons/fa'
-
+import { FaTelegram } from "react-icons/fa";
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -16,13 +15,11 @@ export default function Navbar() {
       <div className={styles.container}>
         <div className={styles.logo}>
           <Link href="/">
-        
-              <img
-                className={styles.logo}
-                src="/logo.png"
-                alt="greenkarta.uz"
-              ></img>{" "}
-         
+            <img
+              className={styles.logo}
+              src="/logo.png"
+              alt="greenkarta.uz"
+            ></img>{" "}
           </Link>
         </div>
 
@@ -32,7 +29,7 @@ export default function Navbar() {
             setIsNavExpanded(!isNavExpanded);
           }}
         >
-          <VscMenu size={30} color="white" />
+          <VscMenu size={30} color="#00095E" />
         </button>
 
         <nav className={isNavExpanded ? styles.menu_active : styles.menu}>
@@ -42,7 +39,7 @@ export default function Navbar() {
               setIsNavExpanded(!isNavExpanded);
             }}
           >
-            <VscChromeClose size={30} />
+            <VscChromeClose size={30} color="#00095E" />
           </button>
           <ul
             onClick={() => {
@@ -50,31 +47,21 @@ export default function Navbar() {
             }}
           >
             <li>
-              <Link href="/">
-          Asosiy
-              </Link>
+              <Link href="/">Asosiy</Link>
             </li>
 
             <li>
-              <Link href="#">
-            Tur paketlar
-              </Link>
+              <Link href="#">Tur paketlar</Link>
             </li>
 
             <li>
-              <Link href="#">
-                Biz haqimizda
-              </Link>
+              <Link href="#">Biz haqimizda</Link>
             </li>
             <li>
-              <Link href="#">
-              Blog
-              </Link>
+              <Link href="#">Blog</Link>
             </li>
             <li>
-              <Link href="https://t.me/abulfayz05">
-              Aloqa
-              </Link>
+              <Link href="https://t.me/abulfayz05">Aloqa</Link>
             </li>
           </ul>
         </nav>

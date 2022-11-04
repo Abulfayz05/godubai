@@ -92,3 +92,15 @@
 .date p{
     margin: 0;
 }
+
+
+@media (max-width: 500px){
+
+    .title h1{
+        font-size: 28px;
+    }
+   .grid{
+    grid-template-columns: 1fr;
+  padding-top: 25px;
+   }
+}
