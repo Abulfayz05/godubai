@@ -3,7 +3,7 @@
     position: relative;
     left: 0px;
     top: 0px;
-    z-index: 999;
+    z-index: 2;
     opacity: 1;
 }
 
@@ -70,6 +70,15 @@
 @media (max-width: 500px){
     .title{
         font-size: 28px;
+    }
+
+    .hero_text {
+        padding-top: 80px;
+    }
+
+    .bg{
+        height: 30vh;
+        margin-top: 15px;
     }
 
     .hero_text p{

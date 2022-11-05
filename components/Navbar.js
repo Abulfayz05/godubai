@@ -4,7 +4,7 @@ import styles from "../styles/Navbar.module.css";
 import { useState } from "react";
 import { VscMenu } from "react-icons/vsc";
 import { VscChromeClose } from "react-icons/vsc";
-import { FaTelegram } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -57,11 +57,18 @@ export default function Navbar() {
             <li>
               <Link href="#">Biz haqimizda</Link>
             </li>
+
             <li>
               <Link href="#">Blog</Link>
             </li>
+          
+            {/* <li>
+              <Link href="https://t.me/abulfayz05"> Aloqa</Link>
+            </li> */}
+
+
             <li>
-              <Link href="https://t.me/abulfayz05">Aloqa</Link>
+              <a href="tel:+998974350512" className={styles.phone}> (97) 435 05 12</a>
             </li>
           </ul>
         </nav>
