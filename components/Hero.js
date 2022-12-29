@@ -5,6 +5,8 @@ export default function Hero() {
     <div
     className={styles.container}>
     <div className={styles.hero_text}>
+    <h1 className={styles.title}>Sayt sotiladi 97 793 65 42
+           </h1>
         <h1 className={styles.title}>Dubayga sayohat qiling <br/>
             sizni dubay kutmoqda</h1>
         <p>Qani ketdik sizni dubayda ajoyib va esda qolarli sayohat kutmoqda</p>
